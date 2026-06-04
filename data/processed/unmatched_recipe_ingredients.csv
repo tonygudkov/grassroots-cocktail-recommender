@@ -1,0 +1,5 @@
+﻿"canonical_ingredient_id","canonical_ingredient_name","substitute_group_id","source_ingredient_name","match_status"
+"coconut_cream","Coconut cream","dairy_or_cream","Coconut Cream","recipe_only"
+"cola","Cola","mixer_cola","Cola","recipe_only"
+"ginger","Ginger","produce_ginger","Ginger","recipe_only"
+"white_peach_puree","White peach puree","fruit_peach","Peach Puree","recipe_only"

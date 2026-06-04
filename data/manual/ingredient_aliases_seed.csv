@@ -1,0 +1,70 @@
+source_ingredient_name,canonical_ingredient_name,match_type,substitute_group_id,notes
+Absinthe,Absinthe verte (green),alias_to_profile,spirit_absinthe,IBA/source naming shortened.
+Amaretto,Amaretto liqueur,alias_to_profile,liqueur_amaretto,Recipe ingredient maps to liqueur profile.
+Amaro Nonino,Amaro Montenegro,substitute_group_match,amaro,Proxy amaro profile until Nonino receives its own vector.
+Angostura Bitters,Aromatic bitters (e.g. Angostura),alias_to_profile,bitters_aromatic,Brand example maps to aromatic bitters.
+Aperol,Orange-red aperitivo (e.g. Aperol),alias_to_profile,liqueur_bitter_aperitivo,Maps brand name to workbook aperitivo profile.
+Apricot Brandy,Apricot (brandy) liqueur,alias_to_profile,liqueur_apricot,Common IBA wording.
+Benedictine,Bénédictine D.O.M. liqueur,alias_to_profile,liqueur_benedictine,Maps ASCII source name to profiled liqueur.
+Black Raspberry Liqueur,Black raspberry liqueur (e.g. Chambord),alias_to_profile,liqueur_black_raspberry,Used by Bramble.
+Bourbon Whiskey,Bourbon whiskey,alias_to_profile,spirit_whiskey,American whiskey substitute family.
+Bourbon or Rye Whiskey,Bourbon whiskey,substitute_group_match,spirit_whiskey,Exact bottle can be bourbon or rye.
+Brandy,Cognac (brandy),substitute_group_match,spirit_brandy,Generic brandy can stand in for cognac at cabinet-filter level.
+Cachaca,Cachaça (unaged),alias_to_profile,spirit_rum_sugarcane,Maps ASCII source name to profiled cachaca.
+Campari,Italian red bitter liqueur (e.g. Campari),alias_to_profile,liqueur_bitter_aperitivo,Brand example maps to generic red bitter liqueur.
+Champagne,Brut sparkling wine (e.g. champagne),substitute_group_match,wine_sparkling,Use sparkling wine group for availability.
+Cherry Liqueur,Cherry brandy liqueur,alias_to_profile,liqueur_cherry,Maps to top-100 cherry liqueur profile.
+Coconut Cream,Coconut cream,recipe_only,dairy_or_cream,Recipe-only until a coconut cream vector is added.
+Cognac,Cognac (brandy),exact_profile_name,spirit_brandy,Profile ingredient.
+Cointreau,Triple sec liqueur (e.g. Cointreau),alias_to_profile,liqueur_orange,Brand example maps to orange liqueur.
+Cola,Cola,recipe_only,mixer_cola,Recipe-only seed unless a flavor profile is later added.
+Cream,Cream single / half and half,alias_to_profile,dairy_or_cream,Dairy/cream substitute family.
+Creme de Cacao,Crème de cacao liqueur (white),alias_to_profile,liqueur_cacao,ASCII source spelling maps to profiled white cacao liqueur.
+Creme de Menthe,White crème de menthe liqueur,alias_to_profile,liqueur_mint,ASCII source spelling maps to profiled mint liqueur.
+Cranberry Juice,Cranberry juice (sweetened),alias_to_profile,fruit_juice_cranberry,Recipe ingredient maps to juice profile.
+Dark Rum,Well-aged rum 6-10yr old molasses Caribbean blended,substitute_group_match,spirit_rum_sugarcane,Availability can use rum family first, exact style later.
+Dry Gin,Gin (dry),alias_to_profile,spirit_gin,London dry/dry gin profile.
+Dry Vermouth,Dry vermouth,exact_profile_name,vermouth_dry,Profile ingredient.
+Egg White,Egg white (pasteurised),alias_to_profile,foamer_egg_white,Availability and texture profile.
+Espresso,Espresso coffee (hot),alias_to_profile,coffee_espresso,Maps source ingredient to profiled espresso.
+Galliano,Galliano L'Autentico liqueur,alias_to_profile,liqueur_herbal_vanilla,Maps source ingredient to profiled Galliano.
+Ginger,Ginger,recipe_only,produce_ginger,Fresh ginger is not yet in the workbook flavor profiles.
+Ginger Ale,Ginger ale,alias_to_profile,mixer_ginger,Carbonated ginger mixer.
+Ginger Beer,Ginger beer,alias_to_profile,mixer_ginger,Carbonated ginger mixer.
+Gomme Syrup,Sugar syrup 'rich' (2 sugar to 1 water),substitute_group_match,sweetener_simple_syrup,Equivalent sweetener family for starter matching.
+Grand Marnier,Cognac orange liqueur (e.g. Grand Marnier),alias_to_profile,liqueur_orange,Orange liqueur with brandy base.
+Grapefruit Juice,Grapefruit juice (pink),alias_to_profile,citrus_juice_grapefruit,Maps to grapefruit profile.
+Green Chartreuse,Chartreuse Verte (green),alias_to_profile,liqueur_chartreuse,Maps common English name to workbook profile.
+Grenadine,Grenadine/pomegranate syrup,alias_to_profile,sweetener_grenadine,Maps source name to profiled pomegranate syrup.
+Honey Syrup,Honey syrup (3 honey to 1 water),alias_to_profile,sweetener_honey,Maps source name to profiled honey syrup.
+Lemon Juice,Lemon juice (freshly squeezed),alias_to_profile,citrus_juice_lemon,Fresh lemon juice.
+Lillet Blonde,Lillet Blanc (or other aromatized wine),substitute_group_match,aromatized_wine_blanc,Closest workbook aromatized-wine profile.
+Lime,Lime juice (freshly squeezed),substitute_group_match,citrus_juice_lime,Whole lime in starter recipes approximated with lime profile.
+Lime Juice,Lime juice (freshly squeezed),alias_to_profile,citrus_juice_lime,Fresh lime juice.
+Maraschino Liqueur,Maraschino liqueur,exact_profile_name,liqueur_maraschino,Profile ingredient.
+Mezcal,Mezcal (joven),alias_to_profile,spirit_mezcal,Maps source name to profiled mezcal.
+Mint Leaves,Mint leaves (fresh),alias_to_profile,fresh_herb_mint,Maps source name to profiled mint.
+Olive Brine,Olive brine,recipe_only,brine_olive,Recipe-only savory/salty item.
+Orange Bitters,Orange bitters,exact_profile_name,bitters_orange,Profile ingredient.
+Orange Curacao,Orange Curaçao liqueur,alias_to_profile,liqueur_orange,Orange liqueur substitute group.
+Orange Juice,Orange juice (freshly squeezed),alias_to_profile,citrus_juice_orange,Juice profile if present.
+Orgeat Syrup,Orgeat (almond) syrup,alias_to_profile,sweetener_orgeat,Maps source name to profiled orgeat.
+Passion Fruit Syrup,Passion fruit syrup,recipe_only,sweetener_passion_fruit,Recipe-only if no profile exists.
+Peach Puree,White peach puree,recipe_only,fruit_peach,Recipe-only produce item.
+Pineapple Juice,Pineapple juice,alias_to_profile,tropical_juice_pineapple,Maps to tropical juice profile.
+Prosecco,Prosecco sparkling wine,alias_to_profile,wine_sparkling,Sparkling wine substitute family.
+Raspberry Syrup,Raspberry syrup,recipe_only,sweetener_raspberry,Recipe-only if no profile exists.
+Rye Whiskey,Rye whiskey (100 proof / 50% alc./vol.),alias_to_profile,spirit_whiskey,American whiskey substitute family.
+Scotch Whisky,Scotch blended whisky,alias_to_profile,spirit_whiskey,Whisky substitute family.
+Simple Syrup,Sugar syrup 'rich' (2 sugar to 1 water),substitute_group_match,sweetener_simple_syrup,Simple syrup and rich syrup are close enough for cabinet filtering.
+Soda Water,Soda water (club soda),alias_to_profile,mixer_soda_water,Carbonated water.
+Sugar,Sugar syrup 'rich' (2 sugar to 1 water),substitute_group_match,sweetener_simple_syrup,For recipes where sugar is dissolved/muddled.
+Sweet Vermouth,Rosso/rouge (sweet) vermouth,alias_to_profile,vermouth_sweet,Sweet red vermouth.
+Tequila,Tequila reposado,substitute_group_match,spirit_tequila,Use tequila group first; exact blanco/reposado can be refined later.
+Tomato Juice,Tomato juice,recipe_only,vegetable_juice_tomato,Recipe-only seed unless profile is later added.
+Triple Sec,Triple sec liqueur (e.g. Cointreau),alias_to_profile,liqueur_orange,Generic orange liqueur.
+Vodka,Vodka,exact_profile_name,spirit_vodka,Profile ingredient.
+Vodka Citron,Citrus-flavoured vodka,alias_to_profile,spirit_vodka,Maps source name to profiled citrus vodka.
+White Rum,White (charcoal-filtered) 1-3 year old light rum,alias_to_profile,spirit_rum_sugarcane,Light rum profile.
+Worcestershire Sauce,Worcestershire sauce,recipe_only,seasoning_savory,Recipe-only seasoning.
+Yellow Chartreuse,Chartreuse Jaune (yellow),alias_to_profile,liqueur_chartreuse,Maps common English name to workbook profile.

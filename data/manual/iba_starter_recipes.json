@@ -1,0 +1,643 @@
+{
+  "recipes": [
+    {
+      "name": "Alexander",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_alexander",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Unforgettables",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Brandy", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Creme de Cacao", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Cream", "quantity": 30, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Americano",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_americano",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Unforgettables",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Campari", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Sweet Vermouth", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Soda Water", "quantity": 60, "unit": "top up", "optional": false }
+      ]
+    },
+    {
+      "name": "Bellini",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_bellini",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Prosecco", "quantity": 100, "unit": "ml", "optional": false },
+        { "name": "Peach Puree", "quantity": 50, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Black Russian",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_black_russian",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Vodka", "quantity": 50, "unit": "ml", "optional": false },
+        { "name": "Coffee Liqueur", "quantity": 20, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Bramble",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_bramble",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "New Era Drinks",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Dry Gin", "quantity": 50, "unit": "ml", "optional": false },
+        { "name": "Lemon Juice", "quantity": 25, "unit": "ml", "optional": false },
+        { "name": "Simple Syrup", "quantity": 12.5, "unit": "ml", "optional": false },
+        { "name": "Black Raspberry Liqueur", "quantity": 15, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Caipirinha",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_caipirinha",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Cachaca", "quantity": 60, "unit": "ml", "optional": false },
+        { "name": "Lime", "quantity": 1, "unit": "piece", "optional": false },
+        { "name": "Sugar", "quantity": 4, "unit": "tsp", "optional": false }
+      ]
+    },
+    {
+      "name": "Champagne Cocktail",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_champagne_cocktail",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Champagne", "quantity": 90, "unit": "ml", "optional": false },
+        { "name": "Cognac", "quantity": 10, "unit": "ml", "optional": false },
+        { "name": "Angostura Bitters", "quantity": 2, "unit": "dash", "optional": false },
+        { "name": "Sugar", "quantity": 1, "unit": "tsp", "optional": false }
+      ]
+    },
+    {
+      "name": "Corpse Reviver No. 2",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_corpse_reviver_2",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Unforgettables",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Dry Gin", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Cointreau", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Lillet Blonde", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Lemon Juice", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Absinthe", "quantity": 1, "unit": "dash", "optional": false }
+      ]
+    },
+    {
+      "name": "Cosmopolitan",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_cosmopolitan",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Vodka Citron", "quantity": 40, "unit": "ml", "optional": false },
+        { "name": "Cointreau", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "Lime Juice", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "Cranberry Juice", "quantity": 30, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Cuba Libre",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_cuba_libre",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "White Rum", "quantity": 50, "unit": "ml", "optional": false },
+        { "name": "Cola", "quantity": 120, "unit": "ml", "optional": false },
+        { "name": "Lime Juice", "quantity": 10, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Dark 'n' Stormy",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_dark_n_stormy",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "New Era Drinks",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Dark Rum", "quantity": 60, "unit": "ml", "optional": false },
+        { "name": "Ginger Beer", "quantity": 100, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Daiquiri",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_daiquiri",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Unforgettables",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "White Rum", "quantity": 60, "unit": "ml", "optional": false },
+        { "name": "Lime Juice", "quantity": 20, "unit": "ml", "optional": false },
+        { "name": "Simple Syrup", "quantity": 10, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Dry Martini",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_dry_martini",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Unforgettables",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Dry Gin", "quantity": 60, "unit": "ml", "optional": false },
+        { "name": "Dry Vermouth", "quantity": 10, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Espresso Martini",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_espresso_martini",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "New Era Drinks",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Vodka", "quantity": 50, "unit": "ml", "optional": false },
+        { "name": "Coffee Liqueur", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Espresso", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Simple Syrup", "quantity": 10, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "French 75",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_french_75",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Dry Gin", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Lemon Juice", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "Simple Syrup", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "Champagne", "quantity": 60, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "French Connection",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_french_connection",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Cognac", "quantity": 35, "unit": "ml", "optional": false },
+        { "name": "Amaretto", "quantity": 35, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Gimlet",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_gimlet",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Unforgettables",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Dry Gin", "quantity": 60, "unit": "ml", "optional": false },
+        { "name": "Lime Juice", "quantity": 20, "unit": "ml", "optional": false },
+        { "name": "Simple Syrup", "quantity": 20, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Gin Fizz",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_gin_fizz",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Unforgettables",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Dry Gin", "quantity": 45, "unit": "ml", "optional": false },
+        { "name": "Lemon Juice", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Simple Syrup", "quantity": 10, "unit": "ml", "optional": false },
+        { "name": "Soda Water", "quantity": 80, "unit": "top up", "optional": false }
+      ]
+    },
+    {
+      "name": "Golden Dream",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_golden_dream",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Galliano", "quantity": 20, "unit": "ml", "optional": false },
+        { "name": "Triple Sec", "quantity": 20, "unit": "ml", "optional": false },
+        { "name": "Orange Juice", "quantity": 20, "unit": "ml", "optional": false },
+        { "name": "Cream", "quantity": 10, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Grasshopper",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_grasshopper",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Creme de Cacao", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Creme de Menthe", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Cream", "quantity": 30, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Hemingway Special",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_hemingway_special",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "White Rum", "quantity": 60, "unit": "ml", "optional": false },
+        { "name": "Grapefruit Juice", "quantity": 40, "unit": "ml", "optional": false },
+        { "name": "Maraschino Liqueur", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "Lime Juice", "quantity": 15, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Last Word",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_last_word",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "New Era Drinks",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Dry Gin", "quantity": 22.5, "unit": "ml", "optional": false },
+        { "name": "Green Chartreuse", "quantity": 22.5, "unit": "ml", "optional": false },
+        { "name": "Maraschino Liqueur", "quantity": 22.5, "unit": "ml", "optional": false },
+        { "name": "Lime Juice", "quantity": 22.5, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Long Island Iced Tea",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_long_island_iced_tea",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Vodka", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "Tequila", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "White Rum", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "Dry Gin", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "Triple Sec", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "Lemon Juice", "quantity": 25, "unit": "ml", "optional": false },
+        { "name": "Simple Syrup", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Cola", "quantity": 90, "unit": "top up", "optional": false }
+      ]
+    },
+    {
+      "name": "Mai Tai",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_mai_tai",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "White Rum", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Dark Rum", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Orange Curacao", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "Orgeat Syrup", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "Lime Juice", "quantity": 30, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Manhattan",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_manhattan",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Unforgettables",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Rye Whiskey", "quantity": 50, "unit": "ml", "optional": false },
+        { "name": "Sweet Vermouth", "quantity": 20, "unit": "ml", "optional": false },
+        { "name": "Angostura Bitters", "quantity": 1, "unit": "dash", "optional": false }
+      ]
+    },
+    {
+      "name": "Margarita",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_margarita",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Tequila", "quantity": 50, "unit": "ml", "optional": false },
+        { "name": "Triple Sec", "quantity": 20, "unit": "ml", "optional": false },
+        { "name": "Lime Juice", "quantity": 15, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Mimosa",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_mimosa",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Champagne", "quantity": 75, "unit": "ml", "optional": false },
+        { "name": "Orange Juice", "quantity": 75, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Mint Julep",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_mint_julep",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Bourbon Whiskey", "quantity": 60, "unit": "ml", "optional": false },
+        { "name": "Mint Leaves", "quantity": 8, "unit": "leaves", "optional": false },
+        { "name": "Sugar", "quantity": 1, "unit": "tsp", "optional": false }
+      ]
+    },
+    {
+      "name": "Mojito",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_mojito",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "White Rum", "quantity": 45, "unit": "ml", "optional": false },
+        { "name": "Lime Juice", "quantity": 20, "unit": "ml", "optional": false },
+        { "name": "Mint Leaves", "quantity": 6, "unit": "leaves", "optional": false },
+        { "name": "Sugar", "quantity": 2, "unit": "tsp", "optional": false },
+        { "name": "Soda Water", "quantity": 60, "unit": "top up", "optional": false }
+      ]
+    },
+    {
+      "name": "Moscow Mule",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_moscow_mule",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Vodka", "quantity": 45, "unit": "ml", "optional": false },
+        { "name": "Ginger Beer", "quantity": 120, "unit": "ml", "optional": false },
+        { "name": "Lime Juice", "quantity": 10, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Naked and Famous",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_naked_and_famous",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "New Era Drinks",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Mezcal", "quantity": 22.5, "unit": "ml", "optional": false },
+        { "name": "Yellow Chartreuse", "quantity": 22.5, "unit": "ml", "optional": false },
+        { "name": "Aperol", "quantity": 22.5, "unit": "ml", "optional": false },
+        { "name": "Lime Juice", "quantity": 22.5, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Negroni",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_negroni",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Unforgettables",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Dry Gin", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Campari", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Sweet Vermouth", "quantity": 30, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Old Fashioned",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_old_fashioned",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Unforgettables",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Bourbon or Rye Whiskey", "quantity": 45, "unit": "ml", "optional": false },
+        { "name": "Angostura Bitters", "quantity": 2, "unit": "dash", "optional": false },
+        { "name": "Sugar", "quantity": 1, "unit": "tsp", "optional": false }
+      ]
+    },
+    {
+      "name": "Paper Plane",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_paper_plane",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "New Era Drinks",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Bourbon Whiskey", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Aperol", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Amaro Nonino", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Lemon Juice", "quantity": 30, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Penicillin",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_penicillin",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "New Era Drinks",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Scotch Whisky", "quantity": 60, "unit": "ml", "optional": false },
+        { "name": "Lemon Juice", "quantity": 25, "unit": "ml", "optional": false },
+        { "name": "Honey Syrup", "quantity": 25, "unit": "ml", "optional": false },
+        { "name": "Ginger", "quantity": 3, "unit": "piece", "optional": false }
+      ]
+    },
+    {
+      "name": "Pina Colada",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_pina_colada",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "White Rum", "quantity": 50, "unit": "ml", "optional": false },
+        { "name": "Coconut Cream", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Pineapple Juice", "quantity": 50, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Pisco Sour",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_pisco_sour",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "New Era Drinks",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Pisco", "quantity": 60, "unit": "ml", "optional": false },
+        { "name": "Lemon Juice", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Simple Syrup", "quantity": 20, "unit": "ml", "optional": false },
+        { "name": "Egg White", "quantity": 1, "unit": "piece", "optional": false }
+      ]
+    },
+    {
+      "name": "Sea Breeze",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_sea_breeze",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Vodka", "quantity": 40, "unit": "ml", "optional": false },
+        { "name": "Cranberry Juice", "quantity": 120, "unit": "ml", "optional": false },
+        { "name": "Grapefruit Juice", "quantity": 30, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Singapore Sling",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_singapore_sling",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Dry Gin", "quantity": 30, "unit": "ml", "optional": false },
+        { "name": "Cherry Liqueur", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "Cointreau", "quantity": 7.5, "unit": "ml", "optional": false },
+        { "name": "Benedictine", "quantity": 7.5, "unit": "ml", "optional": false },
+        { "name": "Pineapple Juice", "quantity": 120, "unit": "ml", "optional": false },
+        { "name": "Lime Juice", "quantity": 15, "unit": "ml", "optional": false },
+        { "name": "Grenadine", "quantity": 10, "unit": "ml", "optional": false },
+        { "name": "Angostura Bitters", "quantity": 1, "unit": "dash", "optional": false }
+      ]
+    },
+    {
+      "name": "Tequila Sunrise",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_tequila_sunrise",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Contemporary Classics",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Tequila", "quantity": 45, "unit": "ml", "optional": false },
+        { "name": "Orange Juice", "quantity": 90, "unit": "ml", "optional": false },
+        { "name": "Grenadine", "quantity": 15, "unit": "ml", "optional": false }
+      ]
+    },
+    {
+      "name": "Whiskey Sour",
+      "source_id": "iba_starter_recipe_seed",
+      "source_recipe_id": "iba_web_whiskey_sour",
+      "source_url": "https://github.com/rasmusab/iba-cocktails",
+      "category": "Unforgettables",
+      "alcoholic": true,
+      "iba_status": "IBA listed",
+      "notes": "Starter factual ingredient/amount seed; no method prose copied.",
+      "ingredients": [
+        { "name": "Bourbon Whiskey", "quantity": 45, "unit": "ml", "optional": false },
+        { "name": "Lemon Juice", "quantity": 25, "unit": "ml", "optional": false },
+        { "name": "Simple Syrup", "quantity": 20, "unit": "ml", "optional": false },
+        { "name": "Egg White", "quantity": 1, "unit": "piece", "optional": true }
+      ]
+    }
+  ]
+}

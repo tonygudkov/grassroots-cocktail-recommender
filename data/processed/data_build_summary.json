@@ -1,0 +1,14 @@
+{
+    "built_at_local":  "2026-05-26T15:47:09",
+    "workbook_path":  "C:\\Users\\tonyg\\OneDrive - Cal Poly\\top_100_cocktail_ingredients_quantitative_flavor_map.xlsx",
+    "recipe_seed_path":  "data/manual/iba_starter_recipes.json",
+    "alias_seed_path":  "data/manual/ingredient_aliases_seed.csv",
+    "ingredient_flavor_vectors":  100,
+    "canonical_ingredients":  104,
+    "recipes":  41,
+    "recipe_ingredient_rows":  147,
+    "recipe_flavor_vectors":  41,
+    "unmatched_recipe_ingredients":  4,
+    "substitute_groups":  64,
+    "source_rows":  8
+}
