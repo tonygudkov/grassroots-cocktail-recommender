@@ -4,6 +4,9 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
+if (Get-Variable -Name PSNativeCommandUseErrorActionPreference -ErrorAction SilentlyContinue) {
+  $PSNativeCommandUseErrorActionPreference = $false
+}
 
 $ProjectRoot = Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..")
 Set-Location -LiteralPath $ProjectRoot
@@ -43,13 +46,10 @@ else {
 
 $Owner = gh api user --jq ".login"
 $FullRepo = "$Owner/$RepoName"
-$RepoExists = $true
-
-try {
-  gh repo view $FullRepo --json url | Out-Null
-}
-catch {
-  $RepoExists = $false
+$RepoExists = $false
+gh repo view $FullRepo --json url *> $null
+if ($LASTEXITCODE -eq 0) {
+  $RepoExists = $true
 }
 
 if (-not $RepoExists) {
@@ -62,7 +62,11 @@ if (-not $RepoExists) {
 }
 else {
   $RemoteUrl = "https://github.com/$FullRepo.git"
-  $Origin = git remote get-url origin 2>$null
+  $Origin = $null
+  git remote get-url origin *> $null
+  if ($LASTEXITCODE -eq 0) {
+    $Origin = git remote get-url origin
+  }
   if (-not $Origin) {
     git remote add origin $RemoteUrl
   }
