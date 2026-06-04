@@ -45,12 +45,11 @@ else {
 }
 
 $Owner = gh api user --jq ".login"
+$Owner = $Owner.Trim()
 $FullRepo = "$Owner/$RepoName"
-$RepoExists = $false
-gh repo view $FullRepo --json url *> $null
-if ($LASTEXITCODE -eq 0) {
-  $RepoExists = $true
-}
+
+cmd.exe /d /c "gh repo view $FullRepo --json url >NUL 2>NUL"
+$RepoExists = ($LASTEXITCODE -eq 0)
 
 if (-not $RepoExists) {
   if ($Visibility -eq "public") {
@@ -63,7 +62,7 @@ if (-not $RepoExists) {
 else {
   $RemoteUrl = "https://github.com/$FullRepo.git"
   $Origin = $null
-  git remote get-url origin *> $null
+  cmd.exe /d /c "git remote get-url origin >NUL 2>NUL"
   if ($LASTEXITCODE -eq 0) {
     $Origin = git remote get-url origin
   }
